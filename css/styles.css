@@ -569,6 +569,7 @@ body {
    text-decoration: none;
 
    color: var(--white-text-color);
+   transition: color 250ms var(--timing-function);
 }
 
 .address-list__link:hover,
@@ -581,6 +582,7 @@ body {
    text-decoration: none;
 
    color: var(--secondary-link-color);
+   transition: color 250ms var(--timing-function);
 }
 
 .address-list__contacts:hover,
@@ -634,6 +636,9 @@ body {
 
    fill: var(--white-text-color);
    background-color: var(--icon-bg-color);
+   
+   transition: fill 250ms var(--timing-function),
+   
 
 }
 
