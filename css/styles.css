@@ -479,6 +479,8 @@ body {
    margin-right: auto;
 
    fill: var(--icon-color);
+   transition: background-color 250ms var(--timing-function),
+   fill 250ms var(--timing-function);
 }
 
 .social-icon__link:hover,
@@ -523,6 +525,8 @@ body {
    border-radius: 4px;
 
    fill: var(--icon-color);
+   transition: border 250ms var(--timing-function),
+   fill 250ms var(--timing-function);
 
 }
 
@@ -638,8 +642,7 @@ body {
    background-color: var(--icon-bg-color);
    
    transition: fill 250ms var(--timing-function),
-   
-
+   background-color 250ms var(--timing-function);
 }
 
 .join-icon__link:hover,
